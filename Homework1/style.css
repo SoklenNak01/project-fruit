@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:rgb(91, 182, 129); 
+}
+nav{
+    background-color:rgb(226, 112, 112) ;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 20px;
+
+    
+}
+li{
+    list-style: none;
+}
+.banner {
+    width: 100%;
+    height: 70vh;
+}
+.banner img{
+    width: 100%;
+    height: 70vh;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70vh;
+    justify-content: space-evenly;
+    background-color:rgb(91, 182, 129);
+}
+.card{
+    margin-top: 40px;
+    width: 25%;
+    height: 60vh;
+    background-color: rgb(223, 126, 126);
+    border: 2px solid rgb(226, 112, 112);
+    gap: 10px;
+    box-shadow: rgba(233, 51, 96, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 20px;
+
+}
+.card img{
+    width: 90%;
+    height: 40vh;
+    margin: 20px;
+}
+h1, p{
+   margin-left: 30px;
+}
+h1{
+    font-weight: bold;
+}
+.map iframe{
+   width: 80%;
+    height: 50vh; 
+    margin-left: 10%;
+}
